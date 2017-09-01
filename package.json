@@ -1,0 +1,27 @@
+{
+  "name": "preston-facts",
+  "version": "1.1.0",
+  "description": "An Amazon Alexa skill for random Preston facts",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silasl/preston-facts.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "yarn zip && yarn upload",
+    "upload": "bin/upload.sh",
+    "zip": "bin/zip.sh",
+    "install": "bin/postinstall.sh"
+  },
+  "author": "silasl <si@siland.co.uk>",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "lambda-local": "^1.4.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/node_modules/", "/__request__/"]
+  }
+}

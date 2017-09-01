@@ -1,0 +1,1 @@
+../../../../node_modules/lambda-local/bin/lambda-local -l ../../../index.js -h handler -e __request__/index.js
