@@ -1,15 +1,14 @@
 {
-  "name": "our-kid-src",
+  "name": "preston-facts-src",
   "version": "1.1.0",
-  "description": "Source code for Our Kid Alexa skill",
+  "description": "An Amazon Alexa skill for random Preston facts",
   "main": "index.js",
-  "author": "Scriptic <silas@siland.co.uk>",
+  "author": "silasl <si@siland.co.uk>",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/scriptic/our-kid.git"
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.6",
-    "request": "^2.79.0"
+    "alexa-sdk": "^1.0.6"
   }
 }
