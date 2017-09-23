@@ -1,7 +1,22 @@
 {
   "intents": [
     {
-      "intent": "DeliverFact"
+      "intent": "DeliverFact",
+      "slots":[
+        {
+          "name":"which",
+          "type":"PRESTONS"
+        }
+      ]
+    },
+    {
+      "intent": "WhichPreston",
+      "slots":[
+        {
+          "name":"which",
+          "type":"PRESTONS"
+        }
+      ]
     },
     {
       "intent": "AMAZON.YesIntent"

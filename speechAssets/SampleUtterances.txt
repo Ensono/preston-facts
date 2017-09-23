@@ -1,3 +1,5 @@
 DeliverFact Give me a fact
-DeliverFact Give me a fact about Preston
 DeliverFact Give me a Preston fact
+DeliverFact Give me a fact about Preston {which}
+WhichPreston Preston {which}
+WhichPreston {which}

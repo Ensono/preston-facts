@@ -1,8 +1,9 @@
 module.exports = {
   'LaunchRequest': require('./LaunchRequest'),
   'Introduction': require('./Introduction'),
-  'DeliverFact': require('./Task'),
-  'GetFact': require('./Task'),
+  'WhichPreston': require('./WhichPreston'),
+  'DeliverFact': require('./DeliverFact'),
+  'GetFact': require('./GetFact'),
   'AMAZON.YesIntent': require('./AMAZONYesIntent'),
   'AMAZON.NoIntent': require('./AMAZONNoIntent'),
   'AMAZON.HelpIntent': require('./AMAZONHelpIntent'),

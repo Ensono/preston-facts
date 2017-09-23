@@ -1,6 +1,9 @@
 module.exports = {
   appId: 'amzn1.ask.skill.802144c9-42cc-4288-910a-5acf91a37e46',
   dbTable: 'PrestonFacts',
+  asteroidFacts: [
+    'Asteroid 3792, Preston, was first observed on March 22, 1985 by C. S. Shoemaker'
+  ],
   prestonFacts: [
     'Preston was the birthplace of the UK’s motorway network',
     'Preston invented the word teetotal',
