@@ -6,7 +6,6 @@ const vars = require('./constants');
 exports.handler = function(event, context, callback) {
     const alexa = Alexa.handler(event, context);
     alexa.appId = vars.appId;
-    alexa.dynamoDBTableName = vars.dbTable;
 
     alexa.registerHandlers(handlers);
     alexa.execute();

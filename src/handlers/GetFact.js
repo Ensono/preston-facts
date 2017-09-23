@@ -1,4 +1,4 @@
-const vars = require('./constants');
+const vars = require('../constants');
 
 function getType(which){
   if(which.includes('asteroid')){
@@ -8,7 +8,8 @@ function getType(which){
 }
 
 module.exports = function () {
-  const whichPreston = this.attributes['whichPreston'] || this.event.request.intent.slots.which.value;
+  const slot = this.event.request.intent.slots.which;
+  const whichPreston = (slot ? slot.value : null) || this.attributes['whichPreston'];
 
   if (!whichPreston) {
     this.emit('WhichPreston');
